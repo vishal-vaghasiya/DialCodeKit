@@ -223,4 +223,4 @@ Feel free to explore and customize `CountryDialCodePicker` to best fit your appâ
 ## ðŸ‘¤ Author
 
 Vishal Vaghasiya  
-GitHub: [vishalvaghasiya-ios](https://github.com/vishalvaghasiya-ios)
+GitHub: [vishal-vaghasiya](https://github.com/vishal-vaghasiya)

@@ -1,4 +1,4 @@
-# CountryDialCodePicker
+# DialCodeKit
 
 ## 📚 Table of Contents
 
@@ -12,7 +12,7 @@
 
 ## ✨ Features
 
-`CountryDialCodePicker` is a simple and customizable SwiftUI component that allows users to select a country along with its dial code. It provides a searchable list of countries, an index bar for quick navigation, and supports various customization options to fit your app’s design and requirements.
+`DialCodeKit` is a simple and customizable SwiftUI component that allows users to select a country along with its dial code. It provides a searchable list of countries, an index bar for quick navigation, and supports various customization options to fit your app’s design and requirements.
 
 **Note:** You can also add a **header icon** in `CountryDialCodePickerView` to enhance the UI. Here's a SwiftUI example showing how to add a leading icon next to the title in the header:
 
@@ -38,7 +38,7 @@ CountryDialCodePickerView(title: {
 
 ## 📦 Installation
 
-You can add `CountryDialCodePicker` to your Xcode project using Swift Package Manager (SPM). Follow these beginner-friendly steps:
+You can add `DialCodeKit` to your Xcode project using Swift Package Manager (SPM). Follow these beginner-friendly steps:
 
 1. **Open your Xcode project** — Launch Xcode and open the project where you want to add the package.
 
@@ -47,7 +47,7 @@ You can add `CountryDialCodePicker` to your Xcode project using Swift Package Ma
 3. **Enter the package repository URL** — In the search bar, paste the following URL and press Enter:
 
    ```
-   https://github.com/vishalvaghasiya-ios/CountryDialCodePicker.git
+   https://github.com/vishalvaghasiya-ios/DialCodeKit.git
    ```
 
 4. **Choose the version or branch** — Select the version you want to use (usually the latest release) or specify a branch if needed. Then click **Add Package**.
@@ -57,7 +57,7 @@ You can add `CountryDialCodePicker` to your Xcode project using Swift Package Ma
 Once the package is added, you can start using it in your Swift files by importing the module:
 
 ```swift
-import CountryDialCodePicker
+import DialCodeKit
 ```
 
 ## 🚀 How to Use
@@ -68,7 +68,7 @@ Here’s an updated example using the new demo-based API for presenting the coun
 
 ```swift
 import SwiftUI
-import CountryDialCodePicker
+import DialCodeKit
 
 struct ContentView: View {
     @State private var selectedCountry: Country?
@@ -120,7 +120,7 @@ struct ContentView: View {
 
 ```swift
 import UIKit
-import CountryDialCodePicker
+import DialCodeKit
 
 class MyViewController: UIViewController, CountryPickerDelegate {
     var selectedCountry: Country?
@@ -158,7 +158,7 @@ class MyViewController: UIViewController, CountryPickerDelegate {
 
 ### Customizations
 
-`CountryDialCodePicker` offers several ways to customize its appearance and behavior:
+`DialCodeKit` offers several ways to customize its appearance and behavior:
 
 #### Title
 
